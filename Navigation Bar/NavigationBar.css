@@ -1,0 +1,16 @@
+.hamburger-line {
+    width: 20px;
+    height: 2px;
+    margin: 2px;
+    background: white;
+    transition: transform 0.3s ease;
+}
+
+
+.hamburger-line:nth-child(even).active  {
+    transform: rotate(-45deg) translateY(-4px);
+}
+
+.hamburger-line:nth-child(odd).active {
+    transform: rotate(45deg) translateY(4px);
+}
